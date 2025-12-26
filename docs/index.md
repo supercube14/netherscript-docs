@@ -4,15 +4,14 @@ layout: home
 
 hero:
   name: "NetherScript"
-  text: "A VitePress Site"
-  tagline: My great project tagline
+  tagline: Python-based, datapack compiler and (future) toolset for faster scripting.
   actions:
     - theme: brand
-      text: Markdown Examples
-      link: /markdown-examples
+      text: Introduction
+      link: /general/about
     - theme: alt
-      text: API Examples
-      link: /api-examples
+      text: Develop
+      link: /develop/
 
 features:
   - title: Feature AB
