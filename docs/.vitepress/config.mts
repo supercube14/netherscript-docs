@@ -4,10 +4,11 @@ import { defineConfig } from 'vitepress'
 export default defineConfig({
   title: "NetherScript",
   description: "A VitePress Site",
+  base: "/netherscript-docs",
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     nav: [
-      { text: 'Home', link: '/netherscript-docs' },
+      { text: 'Home', link: '/' },
       { text: 'Examples', link: '/markdown-examples' }
     ],
 
