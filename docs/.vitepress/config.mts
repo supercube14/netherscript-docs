@@ -23,13 +23,14 @@ export default defineConfig({
         {
           text: 'Introduction',
           items: [
-            { text: 'What is NetherScript?', link: './about' },
-            { text: 'Getting Started', link: './getting_started' },
-            { text: 'Using the Compiler', link: './usage' }
+            { text: 'What is NetherScript?', link: '/general/about' },
+            { text: 'Getting Started', link: '/general/getting_started' },
+            { text: 'Using the Compiler', link: '/general/usage' }
           ]
         }
       ],
       '/reference/': [
+        { text: 'Index', link: './'},
         { text: 'Using the Compiler', link: './usage' },
         { text: 'Syntax', link: './syntax' }
       ]
