@@ -27,6 +27,15 @@ const vitePressOptions = {
     search: {
       provider: 'local'
     }
+  },
+  markdown: {
+    container: {
+      tipLabel: 'Tip',
+      warningLabel: 'Warning',
+      dangerLabel: 'Danger',
+      infoLabel: 'Info',
+      detailsLabel: 'Details'
+    }
   }
 }
 
