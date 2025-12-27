@@ -4,13 +4,13 @@ prev:
   link: './usage'
 next: false
 ---
-# Syntax <Badge type="info" text="Fully up-to-date"/> <Badge type="warning" text="Partially complete"/>
+# Syntax <Badge type="warning" text="Partially complete"/>
 
 :::warning
 It is untested whether the order in which code blocks appear has any affect on the compilation.
 :::
 
-## Headers <Badge type="info" text="v0.1-mc1.21.11"/>
+## Headers
 
 There are headers at the beginning of each `.ntscript` file. The compiler references these headers to determine how to compile the file.
 
