@@ -6,6 +6,6 @@ Clocks are codeblocks whose contents are placed into a separate `.mcfunction` fi
 
 ```ntscript
 clock NAME
-    # code to run
+    ...
 end
 ```

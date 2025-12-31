@@ -1,5 +1,7 @@
 # Entity Selectors
 
+Entity selectors are used to reference and create entities according to provided conditions and values.
+
 ## Defining
 
 Entity selectors can be defined with
