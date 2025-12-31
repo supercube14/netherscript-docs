@@ -5,7 +5,7 @@ The `as` codeblock compiles into `/execute as`.
 ## Usage
 
 ```ntscript
-as @SELECTOR
+as @FULL_SELECTOR
     ...
 end
 ```
