@@ -1,5 +1,7 @@
 # Entity Selectors
 
+## Defining
+
 Entity selectors can be defined with
 
 ```ntscript
@@ -20,7 +22,17 @@ where `@NAME` represents an `@` followed by a valid id, and `@FULL_SELECTOR` is 
 ```
 :::
 
-### Defining with `create`
+## Referencing
+
+Entity selectors can be referenced by their name.
+
+:::info Example
+```ntscript
+@ExplodingCow
+```
+:::
+
+## Defining with `create`
 
 Optionally, entity selectors can also be defined using a `define`/`create`/`end` codeblock, which functions similar to a constructor in other languages.
 
@@ -40,7 +52,7 @@ end
 ```
 :::
 
-### Referencing with `create`
+## Referencing with `create`
 
 Entity selectors can then be referenced using `create` to summon them into the world.
 
