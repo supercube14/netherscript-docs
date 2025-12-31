@@ -1,4 +1,4 @@
-# `as`
+# Execute `as`
 
 The `as` codeblock compiles into `/execute as`.
 
